@@ -9,15 +9,11 @@ const Counter = () => {
     }
 
     const decreaseCount = () => {
-        if (count > 0) {
-            setCount(count-1)
-        }
+        setCount(count-1)
     }
 
     const resetCount = () => {
-        if (count > 0) {
-            setCount(0)
-        }
+        setCount(0)
     }
 
     return (
